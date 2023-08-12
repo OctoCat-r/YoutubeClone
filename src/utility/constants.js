@@ -11,14 +11,16 @@ import GraphicEqIcon from "@mui/icons-material/GraphicEq";
 import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
-export const logo = "https://cdn.dribbble.com/users/7755264/screenshots/17244957/media/d2f910635dbcf6edaf6a7c04978e4a42.png";
+export const logo =
+  "https://cdn.dribbble.com/users/7755264/screenshots/17244957/media/d2f910635dbcf6edaf6a7c04978e4a42.png";
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
-  { name: "JS Mastery", icon: <CodeIcon /> },
+  // { name: "JS Mastery", icon: <CodeIcon /> },
   { name: "Coding", icon: <CodeIcon /> },
   { name: "ReactJS", icon: <CodeIcon /> },
   { name: "NextJS", icon: <CodeIcon /> },
   { name: "Music", icon: <MusicNoteIcon /> },
+  { name: "Ed Sheeran", icon: <MusicNoteIcon /> },
   { name: "Education", icon: <SchoolIcon /> },
   { name: "Podcast", icon: <GraphicEqIcon /> },
   { name: "Movie", icon: <OndemandVideoIcon /> },
